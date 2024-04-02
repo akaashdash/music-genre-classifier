@@ -115,6 +115,7 @@ We observe that the two highest performing models were SVM with LDA and RFC with
 *<u>Table 2</u>: Accuracy report for SVM with LDA*
 
 ![svm_lda](./images/svm_lda.png)
+
 *<u>Table 3</u>: Confusion matrix of SVM with LDA*
 
 ### Results Algorithm/Model 2: RFC with LDA
@@ -135,6 +136,7 @@ We observe that the two highest performing models were SVM with LDA and RFC with
 *<u>Table 4</u>: Accuracy report for RFC with LDA*
 
 ![rfc_lda](./images/rfc_lda.png)
+
 *<u>Table 5</u>: Confusion matrix of RFC with LDA*
 
 ### Discussion of Results
