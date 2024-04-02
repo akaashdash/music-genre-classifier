@@ -88,17 +88,18 @@ While we hope that we can achieve 70% and above in these metrics (which are cite
 
 We apply both models, SVM and RFC, across the three different data preprocessing types to see which would be most effective for our task. We find the following:
 
-| <u>Avg. Accuracy | Original (no dimension reduction) | PCA    | LDA    |
+| <u>Avg. Accuracy</u> | Original (no dimension reduction) | PCA    | LDA    |
 |-------------------|-----------------------------------|--------|--------|
-| **SVM**               | 60.523%                            | 58.219% | <u>70.117% |
-| **RFC**               | 58.027 %                           | 56.168% | <u>69.351% |
+| **SVM**               | 60.523%                            | 58.219% | <u>70.117%</u> |
+| **RFC**               | 58.027 %                           | 56.168% | <u>69.351%</u> |
+
 *<u>Table 1</u>: Average accuracy across models / pre-processing techniques*
 
 We observe that the two highest performing models were SVM with LDA and RFC with LDA. We then look at the accuracy reports and confusion matrices for these two models.
 
 ### Results Algorithm/Model 1: SVM with LDA
 
-| <u>Genre  | <u>Precision | <u>Recall | <u>F1-Score |
+| <u>Genre</u>  | <u>Precision</u> | <u>Recall</u> | <u>F1-Score</u> |
 |------------|-----------|--------|----------|
 | **Blues**  | 68.138%   | 61.071%| 64.197%  |
 | **Classical** | 92.185% | 93.810%| 92.401%  |
@@ -110,6 +111,7 @@ We observe that the two highest performing models were SVM with LDA and RFC with
 | **Pop**    | 81.880%   | 76.690%| 78.805%  |
 | **Reggae** | 61.923%   | 62.702%| 61.375%  |
 | **Rock**   | 47.108%   | 42.988%| 43.913%  |
+
 *<u>Table 2</u>: Accuracy report for SVM with LDA*
 
 ![svm_lda](./images/svm_lda.png)
@@ -117,7 +119,7 @@ We observe that the two highest performing models were SVM with LDA and RFC with
 
 ### Results Algorithm/Model 2: RFC with LDA
 
-| <u>Genre   | <u>Precision | <u>Recall  | <u>F1-Score |
+| <u>Genre</u>   | <u>Precision</u> | <u>Recall</u>  | <u>F1-Score</u> |
 |-------------|-----------|---------|----------|
 | **Blues**   | 66.723%   | 63.417% | 64.926%  |
 | **Classical** | 93.898% | 90.476% | 91.238%  |
@@ -129,7 +131,8 @@ We observe that the two highest performing models were SVM with LDA and RFC with
 | **Pop**     | 81.868%   | 77.440% | 79.000%  |
 | **Reggae**  | 57.213%   | 60.762% | 58.133%  |
 | **Rock**    | 49.074%   | 41.024% | 43.886%  |
-*<u>Table 4/u>: Accuracy report for RFC with LDA*
+
+*<u>Table 4</u>: Accuracy report for RFC with LDA*
 
 ![rfc_lda](./images/rfc_lda.png)
 *<u>Table 5</u>: Confusion matrix of RFC with LDA*
@@ -160,6 +163,7 @@ For results, we want to include more visualizations on  avg. accuracy over folds
 ![gantt](./images/gantt.png)
 
 ## Contribution Table
+
 | Name  | Midterm contributions |
 |-------|------------------------|
 | Ariya | RFC implementation, evaluation |
